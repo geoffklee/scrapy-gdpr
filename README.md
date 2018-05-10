@@ -31,7 +31,7 @@ $ cd scrapy-venv
 $ source bin/activate
 $ pip install scrapy
 $ git checkout https://github.com/gkluoe/scrapy-gdpr.git
-# cd scrapy-gdpr
+$ cd scrapy-gdpr
 ```
 
 5. Run it (<url_file> should be the path to a file containing a list of URLs to use as start points, one per line):
