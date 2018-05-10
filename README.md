@@ -22,16 +22,16 @@ $ pip3 install virtualenv
 
 3. Create a virtualenv and install scrapy
 ```
-$ virtualenv -p python3 scrapy-gdpr
+$ virtualenv -p python3 scrapy-venv
 ```
 
 4. Install scrapy in your virtualenv
 ```
-cd scrapy-gdpr
-source bin/activate
-pip install scrapy
-git checkout https://github.com/gkluoe/scrapy-gdpr.git
-cd scrapy-gdpr.git
+$ cd scrapy-venv
+$ source bin/activate
+$ pip install scrapy
+$ git checkout https://github.com/gkluoe/scrapy-gdpr.git
+# cd scrapy-gdpr
 ```
 
 5. Run it (<url_file> should be the path to a file containing a list of URLs to use as start points, one per line):
